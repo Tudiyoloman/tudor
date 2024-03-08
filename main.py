@@ -288,7 +288,7 @@ class Solution(object):
 
     def improved_double_appearance(self, arr):
         """
-        [1,2,3,2,4] - 12  das
+        [1,2,3,2,4] - 12  das dasda
         [1,2,3,4,5] - 15 das
 
         Se afiseaza singurul element care apare de doua ori in lista
