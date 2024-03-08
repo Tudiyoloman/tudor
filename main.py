@@ -443,6 +443,8 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution()
-    text = "Ana are mere rosii si galbene"
-    print(solution.last_alphabetic_word(text))
-    ai_solution = AI_Solution()
+    # text = "Ana are mere rosii si galbene"
+    # print(solution.last_alphabetic_word(text))
+    # ai_solution = AI_Solution()
+    print("dasda")
+    print("dasda")
