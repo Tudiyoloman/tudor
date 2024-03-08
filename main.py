@@ -199,6 +199,19 @@ class Solution(object):
 
         print("All tests passed")
 
+    def last_alphabetic_word(self,text):
+        """
+        ultimul cuvant dpdv alfabetic
+        :param text: string
+        :return: string
+        """
+        max = text.split()[0]
+        for word in text.split():
+            if word > max:
+                max = word
+
+        return max
+
     def euclidean_distance(self, point1, point2):
         """
         Compute the euclidean distance between two points
@@ -430,5 +443,6 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution()
-    # print(solution.matrix_most_ones_in_a_line(matrix))
+    # text = "Ana are mere rosii si galbene"
+    # print(solution.last_alphabetic_word(text))
     # ai_solution = AI_Solution()
