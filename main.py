@@ -186,7 +186,7 @@ class AI_Solution(object):
 class Solution(object):
 
     def __init__(self):
-        print("Running tests for problems 2,4,5,6,7")
+        print("Running tests for problems")
 
         self.test_euclidean_distance()
         self.test_single_appearance()
@@ -268,7 +268,6 @@ class Solution(object):
     def test_single_appearance(self):
         assert self.single_appearance("ana are mere si mere") == ["ana", "are", "si"]
         assert self.single_appearance("ana are mere si pere si mere") == ["ana", "are", "pere"]
-
     def double_appearance(self, arr):
         """
         Se afiseaza singurul element care apare de doua ori in lista
@@ -289,6 +288,9 @@ class Solution(object):
 
     def improved_double_appearance(self, arr):
         """
+        [1,2,3,2,4] - 12
+        [1,2,3,4,5] - 15
+
         Se afiseaza singurul element care apare de doua ori in lista
         :param arr: list[int]
         :return: double_appeareance integer
@@ -428,4 +430,4 @@ class Solution(object):
 if __name__ == "__main__":
     solution = Solution()
     # print(solution.matrix_most_ones_in_a_line(matrix))
-    ai_solution = AI_Solution()
+    # ai_solution = AI_Solution()
