@@ -313,6 +313,7 @@ class Solution(object):
          nu mai sunt improvizari de adus
         """
         map_appearance = {}
+        map_appearance2 = {}
         for element in arr:
             if element in map_appearance:
                 map_appearance[element] += 1
