@@ -31,6 +31,7 @@ class AI_Solution(object):
         point2 = (4, 5, 6)
         distance = self.AI_euclidean_distance(point1, point2)
         print("Euclidean distance:", distance)
+        print("Euclidean distance:", distance)
 
     def AI_single_appearance(self, text):
         """
@@ -439,6 +440,7 @@ class Solution(object):
             [0, 0, 1, 1, 1]
         ]
         assert self.matrix_most_ones_in_a_line(matrix) == 2
+
 
 
 if __name__ == "__main__":
